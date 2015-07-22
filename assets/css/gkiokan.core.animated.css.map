@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,SAAW,CAAE,UAAU,CAAE,IAAI,CAAE,MAAM,CAAC,IAAI,CAAE,QAAQ,CAAC,QAAQ,CAAE,KAAK,CAAC,IAAI,CAAE,MAAM,CAAC,eAAe,CCDjG,OAAQ,CAAE,UAAU,CAAC,IAAI,CCCzB,IAAK,CACD,MAAM,CAAC,cAAc,CACrB,MAAM,CAAC,GAAG",
+"sources": ["../sass/_main.scss","../sass/_section.scss","../sass/_corebox.scss"],
+"names": [],
+"file": "gkiokan.core.animated.css"
+}
