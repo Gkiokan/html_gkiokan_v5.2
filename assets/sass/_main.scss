@@ -1,3 +1,11 @@
 
-html, body { background: #222; height:100%; position:relative; width:100%; border:10px solid #444; }
+html, body { background: #000; height:100%; position:relative; width:100%; }
+/* body {  content:''; display:block; top:0px; left:0px; right:0px; bottom:0px; border:10px solid #444; z-index:-1; }  */
 
+
+.main {
+    width:auto;
+    height:100%;
+    margin:0px auto;
+    display:block;
+}
