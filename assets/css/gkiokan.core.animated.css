@@ -1,0 +1,118 @@
+/*
+	GkiokanNET v.5.2.
+	Animated Core SCSS
+*/
+html, body {
+  background: #000;
+  height: 100%;
+  position: relative;
+  width: 100%; }
+
+/* body {  content:''; display:block; top:0px; left:0px; right:0px; bottom:0px; border:10px solid #444; z-index:-1; }  */
+.main {
+  width: auto;
+  height: 100%;
+  margin: 0px auto;
+  display: block; }
+
+.header {
+  /* Background */ }
+  .header .background {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    width: auto;
+    height: 100%;
+    z-index: 1; }
+    .header .background iframe {
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      width: 100%;
+      height: 100%;
+      z-index: 49;
+      border: 0px; }
+    .header .background:after {
+      content: '';
+      display: block;
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      position: absolute;
+      background: transparent;
+      z-index: 50;
+      background: -moz-linear-gradient(top, transparent 0%, transparent 64%, black 95%, black 99%);
+      /* FF3.6+ */
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, transparent), color-stop(64%, transparent), color-stop(95%, black), color-stop(99%, black));
+      /* Chrome,Safari4+ */
+      background: -webkit-linear-gradient(top, transparent 0%, transparent 64%, black 95%, black 99%);
+      /* Chrome10+,Safari5.1+ */
+      background: -o-linear-gradient(top, transparent 0%, transparent 64%, black 95%, black 99%);
+      /* Opera 11.10+ */
+      background: -ms-linear-gradient(top, transparent 0%, transparent 64%, black 95%, black 99%);
+      /* IE10+ */
+      background: linear-gradient(to bottom, transparent 0%, transparent 64%, black 95%, black 99%);
+      /* W3C */ }
+  .header .container {
+    z-index: 51;
+    position: relative;
+    display: block; }
+
+section {
+  background: transparent;
+  min-height: 300px;
+  width: auto;
+  position: relative;
+  top: 100px;
+  z-index: 2; }
+
+.box {
+  border: 5px solid #25a;
+  height: 600px;
+  width: auto;
+  min-height: 500px;
+  background: rgba(0, 0, 0, 0.6); }
+  .box .row {
+    height: auto; }
+  .box .row > div {
+    border: 0px solid #fff;
+    height: 100%; }
+  .box .row.row_one {
+    height: calc(100% / 3 * 2);
+    display: block;
+    background: yellow; }
+    .box .row.row_one .row {
+      background: pink;
+      height: 100%; }
+    .box .row.row_one .row > div {
+      height: 50%;
+      display: block; }
+      .box .row.row_one .row > div:nth-child(1) {
+        background: maroon; }
+      .box .row.row_one .row > div:nth-child(2) {
+        background: darkgreen; }
+  .box .row.row_two {
+    height: calc(100% / 3);
+    display: block;
+    background: darkblue; }
+    .box .row.row_two .row {
+      background: orange;
+      height: 100%; }
+    .box .row.row_two .row > div {
+      height: 50%;
+      display: block; }
+      .box .row.row_two .row > div:nth-child(1) {
+        background: purple; }
+      .box .row.row_two .row > div:nth-child(2) {
+        background: magenta; }
+
+.content {
+  position: relative;
+  height: 100%; }
+
+/*# sourceMappingURL=gkiokan.core.animated.css.map */

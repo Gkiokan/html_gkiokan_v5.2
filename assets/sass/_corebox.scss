@@ -1,0 +1,45 @@
+
+.box {
+    border:5px solid #25a;
+    height:600px;
+    width:auto; min-height:500px;
+    background:rgba(0,0,0,.6);
+    
+    // Allgemein Stuff 
+    .row { height:auto; }
+    .row > div { border:0px solid #fff; height:100%; }
+    
+    // Erste Zeile
+    .row.row_one {
+        height:calc(100% / 3 * 2);
+        display:block;
+        background:yellow;
+        
+        .row { background: pink; height:100%; }
+        .row > div { height:50%; display:block; 
+            &:nth-child(1) { background:maroon; }
+            &:nth-child(2) { background:darkgreen; }
+        }
+                
+        
+    }
+    
+    .row.row_two {
+        height:calc(100% / 3); 
+        display:block;
+        background:darkblue;
+                
+        .row { background: orange; height:100%; }
+        .row > div { height:50%; display:block;
+            &:nth-child(1) { background:purple; }
+            &:nth-child(2) { background:magenta; }
+        }            
+    }
+    
+}
+
+.content {
+    // min-height:600px;
+    position:relative;
+    height:100%;
+}
